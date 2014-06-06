@@ -4,6 +4,7 @@
 
 var bookcatApp = angular.module("bookcatApp", [
 	'ngRoute',
+    'bookcatAnimations',
 	'bookcatControllers',
 	'bookcatServices'
 ]);

@@ -5,7 +5,7 @@
 <div>
     <ul class = "books">
         <li ng-repeat = "book in books| filter: query">
-            <a href = "#/books/{{book.id}}">{{book.name}}</a>
+            <a href = "#/books/{{book.id}}" class ="thumb"><img ng=-src="{book.imageURL}}">{{book.name}}</a>
         </li>
     </ul>
 </div>
