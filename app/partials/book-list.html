@@ -2,11 +2,10 @@
 
 </div>
 
-<div ng-controller = 'bookListCtrl'>
+<div>
     <ul class = "books">
         <li ng-repeat = "book in books| filter: query">
             <a href = "#/books/{{book.id}}">{{book.name}}</a>
-            <p>This is some info about the book</p>
         </li>
     </ul>
 </div>
