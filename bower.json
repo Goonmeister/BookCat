@@ -1,0 +1,15 @@
+{
+  "version": "0.0.0",
+  "name": "BookCat",
+  "description": "Displays a list of data on books",
+  "repository": "https://github.com/Goonmeister/BookCat",
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-mocks": "~1.2.x",
+    "bootstrap": "~3.1.1",
+    "angular-route": "~1.2.x",
+    "angular-resource": "~1.2.x",
+    "jquery": "1.10.2",
+    "angular-animate": "~1.2.x"
+  }
+}

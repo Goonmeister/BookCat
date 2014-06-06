@@ -1,0 +1,14 @@
+{
+	"version": "0.0.0",
+	"name": "BookCat",
+	"description": "Displays a list of data on books",
+	"repository": "https://github.com/Goonmeister/BookCat",
+	"devDependencies": {
+		"karma": "~0.10",
+		"http-server": "^0.6.1",
+		"bower": "^1.3.1"
+	},
+	"scripts": {
+		"start": "http-server -p 8080"
+	}
+}
